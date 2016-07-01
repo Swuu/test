@@ -1,17 +1,32 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
-  "license": "MIT",
-  "private": true,
+  "name": "bootstrap-multiselect",
+  "description": "Twitter Bootstrap plugin to make selects user friendly.",
+  "homepage": "http://davidstutz.github.io/bootstrap-multiselect/",
+  "version": "0.9.13",
+  "keywords": [
+      "js",
+      "css",
+      "less",
+      "bootstrap",
+      "jquery",
+      "multiselect"
+  ],
+  "main": [
+    "./dist/js/bootstrap-multiselect.js",
+    "./dist/css/bootstrap-multiselect.css",
+    "./dist/less/bootstrap-multiselect.less"
+  ],
   "dependencies": {
-    "angular": "~1.5.0",
-    "angular-route": "~1.5.0",
-    "angular-loader": "~1.5.0",
-    "angular-mocks": "~1.5.0",
-    "html5-boilerplate": "^5.3.0",
-    "moment": "^2.13.0",
-    "angular-bootstrap-calendar": "^0.20.2"
-  }
+    "jquery": ">= 1.11.0",
+    "bootstrap": ">= 2.3.2"
+  },
+  "ignore": [
+    "docs/.*",
+    "tests/.*",
+    "*.html",
+    "*.git*",
+    "*.md",
+    "*.png",
+    "*.php"
+  ]
 }
